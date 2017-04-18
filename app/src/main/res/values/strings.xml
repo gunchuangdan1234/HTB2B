@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">华佗医药移动商城</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh_down_text">下拉可刷新</string>
+    <string name="refresh_release_text">松开可刷新</string>
+    <string name="toast_text">ScrollView下拉刷新完毕</string>
+
+    <!-- "关于我们"下的文本 -->
+    <string name="tel">服务热线:400-888-888</string>
+    <string name="more_aboutus_appname">华佗医药 Android客户端</string>
+    <string name="more_aboutus_version">版本：1.1.0</string>
+    <string name="copyright">Copyright © 2015–2016</string>
+    <string name="web">   www.htyyao.com</string>
+    <string name="app_copyright">Copyright © 2015–2016 张家口华佗医药经营有限公司, All Rights Reserved</string>
+
+
+    <string name="text_groupbuy">团购</string>
+    <string name="text_xianshi">限时</string>
+    <string name="text_appoint">预约</string>
+    <string name="text_fcode">F码</string>
+    <string name="text_presell">预售</string>
+    <string name="text_virtual">虚拟</string>
+
+    <string name="text_mine_order">我的订单</string>
+    <string name="text_mine_vorder">虚拟订单</string>
+    <string name="text_mine_fav_goods">收藏商品</string>
+    <string name="text_mine_vou">代金券</string>
+    <string name="text_mine_address">收货地址</string>
+    <string name="text_mine_fav_storeorder">收藏店铺</string>
+
+    <!-- 下拉刷新 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <string name="fragment_one">正在进行</string>
+    <string name="fragment_two">已结束</string>
+
+</resources>

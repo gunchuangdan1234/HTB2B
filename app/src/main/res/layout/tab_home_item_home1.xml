@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginTop="2dip"
+    android:orientation="vertical"
+    tools:context=".CrashActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll_home_item_1_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="#f5f5f5"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_Home1Title01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_5"
+            android:src="@mipmap/ic_home_brand" />
+
+        <TextView
+            android:id="@+id/TextViewHome1Title01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新品推荐"
+            android:textColor="@color/home_tab_color"
+            android:textSize="@dimen/text_size_18"
+
+            />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/ImageViewHome1Imagepic01"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_home1_height"
+        android:layout_margin="2dip"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+</LinearLayout>

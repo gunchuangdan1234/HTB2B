@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    <!-- 文字大小 -->
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_23">23sp</dimen>
+    <dimen name="space_10">10dip</dimen>
+    <dimen name="space_15">15dip</dimen>
+    <dimen name="space_20">20dip</dimen>
+    <dimen name="space_12">12dip</dimen>
+    <dimen name="space_30">30dip</dimen>
+    <dimen name="space_40">40dip</dimen>
+    <dimen name="space_5">5dip</dimen>
+
+    <!-- 活动栏的高 -->
+    <dimen name="adv_height">120dip</dimen>
+
+    <dimen name="button_height">46dip</dimen>
+
+
+</resources>

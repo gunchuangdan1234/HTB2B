@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_marginTop="2dip"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_home_deadline_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="#f5f5f5"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_deadlineTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_5"
+            android:src="@mipmap/ic_home_brand" />
+
+        <TextView
+            android:id="@+id/tv_deadlineTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新品推荐"
+            android:textColor="@color/home_tab_color"
+            android:textSize="@dimen/text_size_18"
+
+            />
+    </LinearLayout>
+
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_home1_height"
+        android:layout_margin="2dip"
+        tools:context=".CrashActivity">
+
+        <ImageView
+            android:id="@+id/iv_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+
+        <com.huatuo_b2b.htb2b.ui.home.CustomDigitalClock
+            android:id="@+id/remainTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_weight="0.3"
+            android:background="@color/black"
+            android:gravity="left|center_vertical"
+            android:padding="4dip"
+            android:text="00:00:01"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

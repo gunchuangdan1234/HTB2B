@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/space_10"
+    android:paddingTop="@dimen/space_10"
+    android:paddingRight="@dimen/space_10"
+
+    >
+
+    <LinearLayout
+        android:layout_width="@dimen/adv_height"
+        android:layout_height="@dimen/adv_height"
+        android:background="@mipmap/bg_promotion"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/res_promotion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10"
+            android:text="促销活动"
+            android:textSize="@dimen/text_size_12"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+    /LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/adv_height"
+        android:id="@+id/ImageViewHome1Imagepic01"
+        android:background="@color/whitesmoke"
+        android:layout_gravity="center_vertical" />
+
+
+</LinearLayout>

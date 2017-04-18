@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@mipmap/app_title_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/ic_topbar_logo2"
+            android:gravity="center_vertical" />
+
+
+        <LinearLayout
+            android:id="@+id/textHomeSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="3"
+            android:gravity="center_vertical|left"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_bg_edit"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="8dp"
+                android:src="@mipmap/ic_bar_search"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="搜索商品"
+                android:padding="5dip"
+                android:textColor="#a3a3a3"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/barcodeID"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/ic_bar_search_by_carm"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <com.huatuo_b2b.htb2b.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/pull_refresh_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <com.huatuo_b2b.htb2b.custom.ViewFlipperScrollView
+                android:id="@+id/viewFlipperScrollViewID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ViewFlipper
+                        android:id="@+id/viewflipper"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:id="@+id/dian"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal" />
+                </LinearLayout>
+            </com.huatuo_b2b.htb2b.custom.ViewFlipperScrollView>
+
+            <include layout="@layout/view_category" />
+
+
+            <LinearLayout
+                android:id="@+id/homeViewID"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </com.huatuo_b2b.htb2b.pulltorefresh.library.PullToRefreshScrollView>
+</LinearLayout>

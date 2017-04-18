@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--android:background="@drawable/list_item_w_bg"-->
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/manSongID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_15"
+        android:layout_marginRight="@dimen/space_15"
+        android:drawableLeft="@mipmap/ic_mansong"
+        android:drawablePadding="5dip"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:paddingTop="13dip"
+        android:paddingBottom="13dip"
+        android:singleLine="true"
+        android:text="满送没有活动"
+        android:textColor="#000000"
+        android:textSize="14dp" />
+
+</RelativeLayout>

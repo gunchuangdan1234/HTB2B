@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/bg_personal"
+    android:orientation="vertical">
+
+
+    <!-- Don't set background for ViewPager. It doesn't work because of page margin -->
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="52dp">
+
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/icon_back_btn_normal"
+            android:gravity="center_vertical" />
+
+        <com.huatuo_b2b.htb2b.fragment.widget.TitleIndicator
+            android:id="@+id/pagerindicator"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            app:footerLineHeight="0dp"
+            android:background="#00000000"
+            app:footerTriangleHeight="2dp"
+            app:footerColor="@color/white"
+            app:textColorNormal="@color/indicator_font_color"
+            app:textColorSelected="@color/white"
+            app:textSizeNormal="@dimen/text_size_18"
+            app:textSizeSelected="@dimen/text_size_18" />
+    </LinearLayout>
+
+    <com.huatuo_b2b.htb2b.fragment.widget.ViewPagerCompat
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:duplicateParentState="true" />
+
+</LinearLayout>

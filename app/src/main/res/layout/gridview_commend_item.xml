@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:focusable="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageviewPIC"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textGoodsCommendName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical|left"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:textColor="#6D6D6D"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/textGoodsCommendPrice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical|left"
+            android:text="￥ 0.0"
+            android:textColor="#CA0606"
+            android:textSize="13dp" />
+    </LinearLayout>
+</LinearLayout>
